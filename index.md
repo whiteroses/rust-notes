@@ -2,9 +2,9 @@
 
 ## Links
 
-http://doc.crates.io/guide.html
-https://doc.rust-lang.org/book/
-https://play.rust-lang.org://play.rust-lang.org/
+* http://doc.crates.io/guide.html
+* https://doc.rust-lang.org/book/
+* https://play.rust-lang.org://play.rust-lang.org/
 
 
 ## Basics
