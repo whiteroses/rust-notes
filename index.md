@@ -13,7 +13,7 @@
 
 	}
 
-* 4 spaces to indent instead of tab.
+* 4 spaces to indent, not tabs.
 * `!` is macro, e.g. `println!()`
 
 
