@@ -5,6 +5,7 @@
 * http://doc.crates.io/guide.html
 * https://doc.rust-lang.org/book/
 * https://play.rust-lang.org/
+* [Rust standard library documentation](https://doc.rust-lang.org/std/)
 
 
 ## Basics
@@ -15,6 +16,20 @@
 
 * 4 spaces to indent, not tabs.
 * `!` is macro, e.g. `println!()`
+* When no return type is specified, it is assumed to be `()`, an empty tuple.
+
+
+## Comments
+
+* line comments: `//` until end of line.
+* doc comments: `///`. Supports Markdown.
+* `//!`, for commenting on items containing the comment, like crates, modules
+  or functions. Commonly used inside crates root (lib.rs) or modules root
+  (mod.rs).
+* Can use macros like `assert_eq!` and `assert!` in doc comments, like Python
+  doctests.
+* The rustdoc tool can be used to generate HTML documentation from doc
+  comments, and to run the code examples as tests.
 
 
 ## Building
