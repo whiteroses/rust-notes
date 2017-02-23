@@ -6,6 +6,7 @@
 * https://doc.rust-lang.org/book/
 * https://play.rust-lang.org/
 * [Rust standard library documentation](https://doc.rust-lang.org/std/)
+* https://github.com/kud1ing/awesome-rust
 
 
 ## Basics
